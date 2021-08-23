@@ -10,14 +10,78 @@
 </head>
 
 <body>
-    <div>
-        <svg width="1000" height="1000" class="table-svg">
-            <rect x="1" y="1" width="200" height="20" class="retangulo" />
-            <rect x="1" y="30" width="200" height="20" class="retangulo">
-                <text x="0" y="40" class="text-svg">Sorry, your browser does not support inline SVG. </text>
-        </svg>
-    </div>
+    <div class="pag">
+        <h1>Vacinômetro Covid 19 Juazeiro - BA</h1>
+        <svg width="800" height="490" class="table-svg">
 
+            <line x1="230" y1="2" x2="230" y2="480" style="stroke:#999999;stroke-width:2" />
+            <line x1="780" y1="470" x2="220" y2="470" style="stroke:#999999;stroke-width:2" />
+
+            <text x="100" y="20" fill="black">População Geral - </text>
+            <rect width="1" height="20" x="240" y="5"  class="retangulo" id="ret-01"/>
+            <text x="695" y="20" fill="gray" id="data-01"></text>
+
+            <text x="165" y="50" fill="black">Idosos - </text>
+            <rect width="1" height="20" x="240" y="35"  class="retangulo" id="ret-02"/>
+            <text x="590" y="50" fill="gray" id="data-02" ></text>
+
+            <text x="85" y="80" fill="black">Idosos em Abrigos - </text>
+            <rect width="1" height="20" x="240" y="65"  class="retangulo" id="ret-03"/>
+            <text x="245" y="80" fill="gray" id="data-03"></text>
+
+            <text x="40" y="110" fill="black">Idosos Institucionalizados - </text>
+            <rect width="1" height="20" x="240" y="95"  class="retangulo" id="ret-04"/>
+            <text x="245" y="110" fill="gray" id="data-04"></text>
+
+            <text x="75" y="140" fill="black">Forças de Segurança - </text>
+            <rect width="1" height="20" x="240" y="125"  class="retangulo" id="ret-05"/>
+            <text x="270" y="140" fill="gray" id="data-05"></text>
+
+            <text x="55" y="170" fill="black">Trabalhadores de Saúde - </text>
+            <rect width="1" height="20" x="240" y="155"  class="retangulo" id="ret-06"/>
+            <text x="345" y="170" fill="gray" id="data-06"></text>
+
+            <text x="50" y="200" fill="black">Trabalhadores Educação - </text>
+            <rect width="1" height="20" x="240" y="185"  class="retangulo" id="ret-07"/>
+            <text x="300" y="200" fill="gray" id="data-07"></text>
+            
+            <text x="45" y="230" fill="black">Trabalhadores Transporte - </text>
+            <rect width="1" height="20" x="240" y="215"  class="retangulo" id="ret-08"/>
+            <text x="250" y="230" fill="gray" id="data-08"></text>
+
+            <text x="5" y="260" fill="black">Trabalhadores Limpeza Urbana - </text>
+            <rect width="1" height="20" x="240" y="245"  class="retangulo" id="ret-09"/>
+            <text x="250" y="260" fill="gray"id="data-09"></text>
+
+            <text x="115" y="290" fill="black">Comorbidades - </text>
+            <rect width="1" height="20" x="240" y="275"  class="retangulo" id="ret-10"/>
+            <text x="415" y="290" fill="gray" id="data-10"></text>
+
+            <text x="125" y="320" fill="black">Quilombolas - </text>
+            <rect width="1" height="20" x="240" y="305"  class="retangulo" id="ret-11"/>
+            <text x="255" y="320" fill="gray"id="data-11"></text>
+
+            <text x="145" y="350" fill="black">Gestantes - </text>
+            <rect width="1" height="20" x="240" y="335"  class="retangulo" id="ret-12"/>
+            <text x="400" y="350" fill="gray" id="data-12"></text>
+
+            <text x="145" y="380" fill="black">Puérperas - </text>
+            <rect width="1" height="20" x="240" y="365"  class="retangulo" id="ret-13"/>
+            <text x="250" y="380" fill="gray" id="data-13"></text>
+
+            <text x="147" y="410" fill="black">Lactantes - </text>
+            <rect width="1" height="20" x="240" y="395"  class="retangulo" id="ret-14"/>
+            <text x="270" y="410" fill="gray" id="data-14"></text>
+
+            <text x="120" y="440" fill="black">Comunicação - </text>
+            <rect width="1" height="20" x="240" y="425"  class="retangulo" id="ret-15"/>
+            <text x="245" y="440" fill="gray" id="data-15"></text>
+        </svg>
+
+        
+    </div>
+ <script src="js/list.js"></script>
+ <script src="js/covid.js"></script>
 </body>
 
 </html>
