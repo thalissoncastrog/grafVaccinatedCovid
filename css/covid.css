@@ -11,8 +11,6 @@ body{
 
 .table-svg{
     background-color: #d9d9d9;
-    display: flex;
-    flex-direction: column;
     border-style: inset;
     border-width: 10px;
     border-color: #808080;
